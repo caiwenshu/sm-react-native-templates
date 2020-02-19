@@ -1,0 +1,33 @@
+{
+  "name": "sm-react-native-templates",
+  "version": "0.0.8",
+  "scripts": {
+    "start": "./devServer.sh",
+    "test": "jest",
+    "eslint": "./node_modules/.bin/eslint ./src",
+    "prettier": "prettier --write 'src/**/*.{js,jsx,css}'",
+    "prepublishOnly": "./prepublish.sh"
+  },
+  "dependencies": {
+    "prop-types": "15.6.2",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-native-linear-gradient": "2.4.4",
+    "react-navigation": "^1.5.12"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^5.5.0",
+    "eslint-html-reporter": "^0.5.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.3.0",
+    "jest": "20.0.4",
+    "prettier": "1.15.2",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
